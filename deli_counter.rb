@@ -16,3 +16,9 @@ def take_a_number(line, person)
   line << person
   puts "Welcome, #{person}. You are number #{line.size} in line."
 end
+
+def now_serving(line)
+  if !line 
+    puts "The line is empty"
+  end
+end
